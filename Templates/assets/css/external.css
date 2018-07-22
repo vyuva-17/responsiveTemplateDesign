@@ -1,0 +1,284 @@
+
+body {
+	background-color: #999d8f;
+	overflow:auto;
+}
+
+.body_div {
+	width: 1000px;
+	margin: 0 auto;
+	display: table;
+}
+header {
+	background-image: url("../images/header.jpg");
+	background-repeat: no-repeat left top;
+	height: 177%;
+	padding: 10% 5% 0% 20%;
+	border-radius: .7% 1% 0% 0%;
+}
+
+
+header h1 {
+	font-size: 140%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-top: 8%;
+	color: #daddd6;
+	margin: 0%;
+}
+
+header p {
+	font-size: 105%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #daddd6;
+	padding-bottom: 4%;
+	top: auto;
+	margin: 0%;
+}
+
+nav {
+	font-size: 90%;
+	height: 40%;
+	color: #d9dfd1;
+	background-color: #282924;
+	padding: 2%;
+}
+
+.nav_a {
+	color: #e0e0d1;
+	padding-right: 3%;
+	padding-left: 3%;
+	text-decoration: none;
+	border-right: #b2b3ad dotted  1px;
+
+}
+
+.nav_a_lastchild {
+	color: #e0e0d1;
+	padding-right: 3%;
+	padding-left: 3%;
+	text-decoration: none;
+}
+.clear{
+	clear:both;
+}
+
+.content_div {
+	background-color: #dae1d1;
+	margin-top: -1%;
+	height: 70%;
+	
+}
+
+.box_shadowcontent {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #dae1d1;
+	box-shadow: 2px 4px 20px #d3daca;
+   -moz-box-shadow: 2px 4px 20px #d3daca;
+   -webkit-box-shadow: 2px 4px 20px #d3daca;
+	border-top: 7%;
+	color: #47463b;
+	width: 75%;
+	height: 30%;
+	margin: 1%;
+	border-color: #d4d4aa;
+	border-radius: 3% #d3daca ;
+
+
+}
+
+.side_div {
+	width: 20%;
+	height: 85%;
+	float: right;
+	font-size: 20%;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.lia {
+	padding-bottom: 4%;
+}
+
+.ula {
+	text-decoration: underline;
+	color: #283d2c;
+}
+
+#a1 {
+	color: #283d2c;
+}
+
+.star_image {
+	float: left;
+	padding-right: 5%;
+}
+
+h2 {
+	font-size: 25%;
+	padding-left: 1%;
+}
+.main_menu {
+	background-color: #c8d2b9;
+	font-size: 400%;
+	height: 30%;
+	margin-top: -12%;
+	padding: 5% 6%;
+	border-radius: 3%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainmenu_heading {
+	font-size: 500%;
+
+	color: #47463b;
+	margin-top: -1%;
+	padding: 9%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacts {
+	background-color: #c8d2b9;
+	border-radius:3%;
+}
+.contact_heading {
+	font-size: 500%;
+	color: #47463b;
+	padding-bottom: 0%;
+	border-radius: 3%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.contacts_p {
+	font-size: 400%;
+	height: 30%;
+	padding: 5% 6%;
+	border-radius: 3%;
+	color: #283d2c;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.content_heading {
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph_div1 {
+	padding-top: 4%;
+}
+.paragraph1 {
+	padding-left: 1%;
+	color: #47463b;
+	outline-offset: 5%;
+	font-size: 90%;
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom-style: 1% ridge #283d2c;
+}
+.paragraph_div2 {
+	width: 100%;
+	overflow: auto;
+}
+.paragraph2 {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 1%;
+	color: #47463b;
+	font-size: 80%;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-right: 3%;
+}
+.paragraph_div3 {
+	width: 50%;
+	float: right;
+}
+.paragraph3 {
+	padding-left: 1%;
+	color: #47463b;
+	margin: 0%;
+	font-size: 80%;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-right: 9%;
+}
+.button_div a {
+	font-size: 70%;
+	-webkit-border-radius: 18%;
+	-moz-border-radius: 18%;
+	border-radius: 18%;
+	text-decoration: none;
+	padding: 1% 1% 1% 1%;
+	font-weight: bold;
+	display: inline-block;
+	border: #929989 solid 1px;
+}
+.button_div_a1 {
+	float: left;
+	margin-bottom: 5%;
+	margin-left: 1%;
+	color: #20251f;
+	margin-bottom: 10%;
+}
+.button_div_a2 {
+	float: right;
+	margin-right: 43%;
+	color: #20251f;
+	margin-bottom: 5%;
+}
+.footer_div {
+	font-family: Arial, Helvetica, sans-serif;
+	font-color: #474632;
+	background-color: #c7d1b8;
+	text-align: center;
+	font-size: 100%;
+	width: 98%;
+	height: 5%;
+	padding-top: 1%;
+	border-radius: 2%;
+	margin-top: -5%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	margin-right: 3%;
+}
+.footer_p {
+	color: #47463b;
+	font-size: 80%;
+}
+
+.footer_a {
+	padding-left: 0%;
+	color: #4F3110;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
